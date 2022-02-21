@@ -1,0 +1,18 @@
+body {
+  align-items: center;
+  background-color: rgba(107, 169, 240, 0.945);
+}
+table {
+  height: 100%;
+  width: auto;
+  background-color: rgba(90, 192, 158, 0.548);
+}
+th,
+tr,
+td {
+  border: solid white 2px;
+  padding: 10px;
+}
+td:first-of-type {
+  font-weight: bolder;
+}
