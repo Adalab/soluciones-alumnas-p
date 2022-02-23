@@ -1,0 +1,24 @@
+.image {
+  width: 100px;
+}
+
+.container {
+  border: solid 2px rgb(58, 39, 42);
+  display: flex;
+  width: 600px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.item {
+  border: solid 2px pink;
+  width: 200px;
+  flex-grow: 1;
+}
+
+.item-1 {
+  order: -3;
+  border: solid 2px rgb(255, 222, 192);
+  flex-basis: 600px;
+}
