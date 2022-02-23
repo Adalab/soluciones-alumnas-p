@@ -1,0 +1,14 @@
+.content {
+  border: solid 1px pink;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.item-1 {
+}
+
+flex-basis: 600px;
+flex-grow: 2;
