@@ -1,0 +1,47 @@
+@media (max-width: 320px) {
+  .container {
+    margin: 0 20px;
+    background-color: lightcoral;
+  }
+  .title {
+    font-weight: bold;
+    font-size: 32px;
+  }
+  .parrafo {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    margin: 30px 40px 0px 40px;
+    background-color: aqua;
+  }
+
+  .title {
+    font-weight: bold;
+    font-size: 28px;
+  }
+  .parrafo {
+    line-height: 20px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1140px) {
+  .container {
+    margin: 190px auto;
+    width: 750px;
+    background-color: lightgreen;
+  }
+
+  .title {
+    font-weight: bold;
+    font-size: 42px;
+  }
+  .parrafo {
+    line-height: 32px;
+    font-size: 24px;
+  }
+}
