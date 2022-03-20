@@ -1,0 +1,11 @@
+.main {
+  background-color: rgb(204, 243, 230);
+}
+
+.main__title {
+  color: rgb(50, 65, 150);
+}
+
+.underline {
+  text-decoration: underline dotted rgb(63, 215, 253);
+}
