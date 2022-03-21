@@ -1,0 +1,14 @@
+.disable {
+  opacity: 20%;
+}
+
+.btn {
+  font-weight: 600;
+  font-size: larger;
+  color: #fff;
+  background-color: orchid;
+  border: solid darkorchid 2px;
+  padding: 30px 70px;
+  margin: 10px;
+  border-radius: 20%;
+}
