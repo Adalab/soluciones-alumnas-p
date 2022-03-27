@@ -40,15 +40,13 @@ console.log(result2);
 
 //EJERCICIO 3. TICKET CON IVA
 
-function iva (a) {
-    /*return ("El precio sin IVA", a, "IVA:", a * 21 / 100 , "Total", a * (1 + 21 / 100));*/
-    return ( a,  a * 21 / 100, a * (1 + 21 / 100));
-};
+function shop(a) {
+    const iva = a * 21 / 100;
+    const total = a * (1 + 21 / 100);
+    return (`Precio sin IVA: ${a}, IVA: ${iva} Total: ${total}`);
+}
 
-const price = iva (10);
-console.log("Precio sin IVA:", price, "IVA", price, "Total:", price );
-
-/*No sé como hacer para que me devuelva todos los valores correctamente, sin crear varias funciones¿?, así me marca todo el rato la del total */
+console.log(shop(10));
 
 
 
