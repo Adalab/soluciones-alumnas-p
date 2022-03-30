@@ -1,13 +1,13 @@
 "use strict";
 
 let listNumbers = [];
-let numbers = "";
-for (let i = 1; i < 101; i++) {
-    numbers += `${i}, `;
-        };
-function get100Numbers (a) {
-listNumbers.push(a) 
+
+function get100Numbers () {
+    for (let i = 1; i < 101; i++) {
+        listNumbers.push([i]) 
+            };
 };
 
-get100Numbers(numbers);
-console.log(listNumbers);
+get100Numbers();
+
+
