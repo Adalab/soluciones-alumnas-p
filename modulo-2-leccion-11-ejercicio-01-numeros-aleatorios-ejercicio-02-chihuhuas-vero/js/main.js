@@ -18,7 +18,7 @@ const randomNumber = document.querySelector('.js-number');
 const buttonNumber = document.querySelector('.js-numberButton');
 
 function getNumber() {
-  fetch(' https://rand.fun/number/integer?lenght=4')
+  fetch(' https://api.rand.fun/number/integer?lenght=4')
     .then((response) => response.json())
     .then((data) => {
       randomNumber.innerHTML = data.result;
@@ -26,7 +26,6 @@ function getNumber() {
 }
 
 buttonNumber.addEventListener('click', getNumber);
-/*Me salta un error en la consola*/
 
 //EJERCICIO DE EJEMPLO PERROS
 
