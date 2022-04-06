@@ -7,8 +7,10 @@ function getUserProfile() {
         const imgUser = document.querySelector('.js-img');
         imgUser.src = data.avatar_url;
         imgUser.alt = 'Un usuario';
+
         const nameUser = document.querySelector('.js-name');
         nameUser.innerHTML= data.login;
+        
         const numberUser = document.querySelector('.js-number');
         numberUser.innerHTML= data.public_repos;
 
