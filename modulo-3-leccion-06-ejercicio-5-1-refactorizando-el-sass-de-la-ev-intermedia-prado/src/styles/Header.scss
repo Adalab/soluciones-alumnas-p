@@ -1,0 +1,56 @@
+@import "./core/reset";
+@import "./core/variables";
+/* header */
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: var(--white);
+  padding-bottom: 13px;
+}
+
+.logo {
+  width: 155px;
+  margin: 10px 0px;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  font-size: 16px;
+}
+
+.nav_item {
+  padding: 10px;
+
+  color: var(--text);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+@media all and (min-width: 768px) {
+  /* direction menu */
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  /* margins */
+  .logo {
+    margin: 20px auto;
+    margin-left: 30px;
+  }
+  .nav_item {
+    margin-bottom: 0px;
+  }
+  .nav {
+    margin-right: 20px;
+  }
+
+  .header {
+    padding-bottom: 0px;
+  }
+}
